@@ -7,7 +7,6 @@ const PaymentChannelCreate = require('./PaymentChannelCreate')
 const PaymentChannelClaim = require('./PaymentChannelClaim')
 const PaymentChannelFund = require('./PaymentChannelFund')
 const AccountSet = require('./AccountSet')
-const DepositPreauth = require('./DepositPreauth')
 const EnableAmendment = require('./EnableAmendment')
 const UNLModify = require('./UNLModify')
 const AccountDelete = require('./AccountDelete')
@@ -23,7 +22,6 @@ const summarize = {
   PaymentChannelClaim,
   PaymentChannelFund,
   AccountSet,
-  DepositPreauth,
   EnableAmendment,
   UNLModify,
   AccountDelete,
